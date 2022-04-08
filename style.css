@@ -1,0 +1,117 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section img{
+    width: 300px;
+}
+
+section .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 80px;
+    color: cornflowerblue;
+}
+
+h2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40px;
+    color: cadetblue;
+    font-style: italic;
+}
+
+h4{
+    font-family: fantasy;
+    font-size: 20px;
+    color: darkcyan;
+    font-style: oblique;
+}
+
+p{
+    color: black;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: darkred;
+    padding-top: 12px;
+}
+
+#menu a{
+        color:#ffffff;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 800;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+#menu a:hover{
+    color: cadetblue;
+}
+
+.pages{
+    background-image: url('images/blur.png');
+    
+}
+
+.pages a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.about{
+    background-image: url('images/blur2.png');
+    display: grid;
+    justify-content: center;
+}
+
+.contact{
+    background-image: url('images/blur.png');
+    display: grid;
+    justify-content: center;
+}
+.form {
+    border: 1px solid rgb(8, 6, 0);
+    background-color: rgb(255, 255, 255, 0.4)
+}
+.form input, .form textarea {
+    background-color: white;
+}
+.form input, .form textarea, #sub-btn {
+    display: block;
+    border: none;
+    margin: 5% auto;
+    width: 90%;
+    padding: 2%;
+}
+.form a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#sub-btn{
+    background-color: darkred;
+}
+.form ul li {
+    display: inline-block;
+}
+li {
+    margin: 20px;
+    list-style: none;
+    font-size: 22px;
+}
